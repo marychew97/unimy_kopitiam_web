@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+html, body{
+    height:100%;
+}
+
+body{
+    background-image:url("http://www.killiney-kopitiam.com/wp-content/uploads/2016/03/Breakfast-800x535.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+div, body{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    height:100%;
+    width:100%;
+    background-color: rgb(130, 37, 4,0.5);
+}
+
+.text{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    height:70%;
+    bottom:0;
+    display:block;
+    position:absolute;
+    text-align: right;
+}
+
+.text h2,p,#next{
+    margin-right: 10%;
+    color:white;
+    text-shadow: 3px 3px 2px black;
+    font-family: 'Coiny', cursive;
+}
+
+#next{
+    font-size:175%;
+}
+
+.text h2{
+    font-size:350%;
+}
+
+.text p{
+    font-size: 175%;
+}
+
+.text a:hover{
+    text-decoration: none;
+}
